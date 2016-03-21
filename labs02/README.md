@@ -1,6 +1,6 @@
 # strings源码(go version go1.6rc2 windows/amd64)
 
-`go
+```
 // Contains reports whether substr is within s.
 // 判断s字符串中是否包含substr子串
 func Contains(s, substr string) bool {
@@ -46,5 +46,4 @@ func Index(s, sep string) int {
 	}
 	return -1
 }
-
-`go
+```
